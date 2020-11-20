@@ -77,5 +77,22 @@ describe('UsersService', () => {
 
     });
   });
+
+  describe('sum', ()=>{
+    it('should sum two numbers 2', ()=>{
+      const myResult = 5;
+      let response;
+      //spyOn(service, 'sum').and.returnValue(of(myResult));
+
+      service.sum(4,4).subscribe(res =>{
+        response = res;
+      });
+
+      console.log(response);
+      //console.log(myResult);
+      expect(response).toEqual(8);
+
+    });
+  });
   
 });
