@@ -1,3 +1,6 @@
+https://www.digitalocean.com/community/tutorials/testing-angular-with-jasmine-and-karma-part-1
+ng test --watch=false
+
 # AngularTesting
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
